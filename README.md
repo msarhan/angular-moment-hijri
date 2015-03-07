@@ -20,7 +20,7 @@ Include both moment.js and angular-moment-hijri.js in your application.
 
 ```html
 <script src="components/moment/moment.js"></script>
-<script src="components/angular-moment/angular-moment-hijri.js"></script>
+<script src="components/angular-moment-hijri/angular-moment-hijri.js"></script>
 ```
 Add `angularMomentHijri` as a dependency to your app module:
 
@@ -41,3 +41,8 @@ myApp.run(function(amMoment) {
 	amMoment.changeLocale('ar-sa');
 });
 ```
+
+License
+-------
+
+Released under the terms of MIT License.
