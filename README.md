@@ -11,7 +11,6 @@ Installation
 ------------
 
 * Bower: `bower install angular-moment-hijri --save`
-* npm: `npm install angular-moment-hijri --save`
 * Download from github: [angular-moment-hijri.min.js](https://raw.github.com/msarhan/angular-moment-hijri/master/angular-moment-hijri.min.js)
 
 Usage
