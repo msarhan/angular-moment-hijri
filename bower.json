@@ -10,6 +10,22 @@
     "type": "git",
     "url": "https://github.com/msarhan/angular-moment-hijri.git"
   },
+  "keywords": [
+    "hijri",
+    "Hijrah",
+    "Hijra",
+    "Islamic",
+    "arabic",
+    "lunar",
+		"Umm al-Qura",
+		"Ummalqura",
+    "date",
+    "calendar",
+    "conversion",
+    "moment",
+    "angular"
+  ],
+  
  "ignore": [
     "**/.*",
     "node_modules",
