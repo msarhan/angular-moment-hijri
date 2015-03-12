@@ -30,10 +30,19 @@ module.exports = function (grunt) {
 					'angular-moment-hijri.min.js': 'angular-moment-hijri.js'
 				}
 			}
+		},
+		karma: {
+			options: {
+				configFile: 'karma.conf.js'				
+			},
+			unit: {
+				singleRun: true
+			}
 		}
 	});
 
 	grunt.registerTask('build', ['bower', 'concat', 'uglify']);
+	grunt.registerTask('test', ['build', 'karma']);
 
 	grunt.registerTask('default', ['build']);
 };
