@@ -1,6 +1,6 @@
 {
   "name": "angular-moment-hijri",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Moment.JS directives & filters for AngularJS (timeago alternative) with Hijri calendar system support",
   "author": "Mouaffak A. Sarhan",
   "license": "MIT",
