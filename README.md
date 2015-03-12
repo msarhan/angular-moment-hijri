@@ -41,6 +41,26 @@ myApp.run(function(amMoment) {
 });
 ```
 
+### amDateFormat filter
+Format dates using moment.js format() method. Example:
+
+```js
+myApp.controller('AppCtrl', function($scope) {
+	$scope.message = {
+		time: new Date(2015, 2, 17, 7, 10, 20)
+	};
+});
+```
+```html
+<span>{{message.time | amDateFormat:'dddd, hMMMM hYYYY, hh:mm:ss a'}}</span>
+```
+
+This snippet will format the given time as "Tuesday, Jumada al-Ula 1436, 07:10:20 am".
+
+For more information about Moment.JS formatting options, see the
+[docs for the format() function](http://momentjs.com/docs/#/displaying/format/).
+
+
 License
 -------
 
