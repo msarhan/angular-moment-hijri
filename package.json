@@ -1,6 +1,6 @@
 {
   "name": "angular-moment-hijri",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Moment.JS directives & filters for AngularJS (timeago alternative) with Hijri calendar system support",
   "author": "Mouaffak A. Sarhan",
   "license": "MIT",
@@ -11,17 +11,16 @@
     "url": "https://github.com/msarhan/angular-moment-hijri.git"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "bower": "^1.3.12",
-    "karma": "latest",
-    "grunt-karma": "latest",
-    "load-grunt-tasks": "^3.1.0",
+    "grunt": "1.0.1",
+    "bower": "1.7.9",
+    "karma": "0.13.22",
+    "grunt-karma": "0.12.2",
+    "load-grunt-tasks": "3.5.0",
     "grunt-contrib-concat": "^0.5.1",
-    "grunt-bower-task": "^0.4.0",
-    "grunt-contrib-uglify": "^0.8.0",
-    "jasmine-core": "^2.2.0",
-    "karma-jasmine": "^0.3.5",
-    "karma-phantomjs-launcher": "^0.1.4",
-    "karma-chrome-launcher": "^0.1.7"
+    "grunt-contrib-uglify": "1.0.1",
+    "jasmine-core": "2.4.1",
+    "karma-jasmine": "0.3.8",
+    "phantomjs-prebuilt": "2.1.7",
+    "karma-phantomjs-launcher": "1.0.0"
   }
 }

@@ -1,7 +1,7 @@
 ﻿'use strict';
 
 describe('angularMomentHijri', function () {
-	
+
 	var $rootScope, $compile, $window, $filter, moment, amTimeAgoConfig, originalTimeAgoConfig, angularMomentConfig,
 		originalAngularMomentConfig, amMoment;
 
@@ -32,20 +32,20 @@ describe('angularMomentHijri', function () {
 
 		it('should format hijri date with en locale', function () {
 			var greg = new Date(2015, 2, 17, 7, 10, 20);
-			expect(amDateFormat(greg, 'dddd, hMMMM hYYYY, hh:mm:ss a')).toBe('Tuesday, Jumada al-Ula 1436, 07:10:20 am');
+			expect(amDateFormat(greg, 'dddd, iMMMM iYYYY, hh:mm:ss a')).toBe('Tuesday, Jumada al-Ula 1436, 07:10:20 am');
 		});
 
 		it('should format hijri date with en locale', function () {
 			var greg = new Date(1981, 7, 17, 7, 10, 20);
-			expect(amDateFormat(greg, 'hYYYY-hMMMM-hDD hh:mm:ss')).toBe('1401-Shawwal-17 07:10:20');
+			expect(amDateFormat(greg, 'iYYYY-iMMMM-iDD hh:mm:ss')).toBe('1401-Shawwal-17 07:10:20');
 		});
 
 		it('should format hijri date with ar-sa locale', function () {
 			moment.locale('ar-sa');
 			var greg = new Date(1981, 7, 17, 7, 10, 20);
-			expect(amDateFormat(greg, 'hYYYY-hMMMM-hDD hh:mm:ss')).toBe('١٤٠١-شوال-١٧ ٠٧:١٠:٢٠');
+			expect(amDateFormat(greg, 'iYYYY-iMMMM-iDD hh:mm:ss')).toBe('١٤٠١-شوال-١٧ ٠٧:١٠:٢٠');
 		});
 
 	});
-	
+
 });
